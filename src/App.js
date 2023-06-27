@@ -3,6 +3,7 @@ import componentsImage from './assets/images/components.png';
 import stateImage from './assets/images/state.png';
 import eventsImage from './assets/images/events.png';
 import CardList from './components/CardList';
+import MintChocolateChip from './components/NewComponent';
 
 const concepts = [
   {
@@ -38,9 +39,10 @@ function App() {
         <CardList concepts={concepts[1]}></CardList>
         <CardList concepts={concepts[2]}></CardList>
       </ul>
+      <MintChocolateChip/>
 
     </div>
   );
 }
 
-export default App;
+export default App
